@@ -1,11 +1,12 @@
-{
-    "id": "ajjH1H213Ujsjdh21783",
-    "host": "Host1",
-    "name": "Sala de Juego 1",
-    "proposal": "proposal1",
-    "players": ["Player1"],
-    "state": "playing"
-}
-
-  
-  
+[
+    {
+        "id": "ajjH1H213Ujsjdh21783",
+        "host": "Host1",
+        "name": "Sala de Juego 1",
+        "proposal": "proposal1",
+        "players": [
+            "Player1"
+        ],
+        "state": "playing"
+    }
+]
