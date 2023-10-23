@@ -8,7 +8,7 @@ app.use(express.json());
 
 const PORT = 3000;
 
-app.get('/ping', (_req, validacionToken, res) => {
+app.get('/ping', (_req, validacionToken, res: any) => {
     console.log('someone pinged here! ' + new Date().toLocaleDateString());
     res.send('pong');
 });

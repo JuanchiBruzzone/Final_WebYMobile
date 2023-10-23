@@ -1,29 +1,30 @@
 import express from 'express';
+import { validacionToken } from '../middleware';
 
 const router = express.Router();
 
 // Crea una nueva actividad.
-router.post('/activities', (_req, _res) => {
+router.post('/activities',validacionToken, (_req, _res) => {
     
 });
 
 // Obtiene información sobre todas las actividades.
-router.get('/activities', (_req, _res) => {
+router.get('/activities',validacionToken, (_req, _res) => {
 
 });
 
 // Obtiene información sobre una actividad específica.
-router.get('/activities/:id', (_req, _res) => {
+router.get('/activities/:id',validacionToken, (_req, _res) => {
 
 });
 
 // Actualiza la información de una actividad específica.
-router.put('/activities/:id', (_req, _res) => {
+router.put('/activities/:id',validacionToken, (_req, _res) => {
     
 });
 
 // Elimina una actividad específica.
-router.delete('/activities/:id', (_req, _res) => {
+router.delete('/activities/:id',validacionToken, (_req, _res) => {
     
 });
 
