@@ -1,5 +1,6 @@
 import express from 'express'
 import gameActivity from './routes/gameActivities'
+import { validacionToken } from './middleware'
 
 const app = express()
 app.use(express.json())
