@@ -1,25 +1,24 @@
-export type GameRoomState = 'waiting' | 'playing' | 'finished';
+export type GameRoomState = 'waiting' | 'playing' | 'finished'
 
 export interface Activity {
-    id: number;
-    title: string;
-    description: string;
-    image: string;
+  id?: string
+  title: string
+  description: string
+  image: string
 };
 
 export interface Proposal {
-    id: string;
-    title: string;
-    description: string;
-    activities: number[];
+  id: string
+  title: string
+  description: string
+  activities: number[]
 };
 
 export interface GameRoom {
-    id: string;
-    host: string;
-    name: string;
-    proposal: string;
-    players: string[];
-    state: GameRoomState;
+  id: string
+  host: string
+  name: string
+  proposal: string
+  players: string[]
+  state: GameRoomState
 };
-  

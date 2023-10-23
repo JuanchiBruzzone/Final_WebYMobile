@@ -1,8 +1,10 @@
-{
-  "id": "kkasj1183737371hP",
-  "title": "Trivia Nocturna",
-  "description": "Un juego de trivia para poner a prueba tus conocimientos en diversas categorías.",
-  "activities": [
-    "activity1"
-  ]
-}
+[
+  {
+    "id": "kkasj1183737371hP",
+    "title": "Trivia Nocturna",
+    "description": "Un juego de trivia para poner a prueba tus conocimientos en diversas categorías.",
+    "activities": [
+      "activity1"
+    ]
+  }
+]
