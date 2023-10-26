@@ -22,3 +22,4 @@ export interface GameRoom {
   players: string[]
   state: GameRoomState
 };
+
