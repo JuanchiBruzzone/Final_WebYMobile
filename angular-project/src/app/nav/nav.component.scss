@@ -1,0 +1,10 @@
+.navbar-brand {
+    font-size: 2.1rem;
+    font-family: "Alphakind", Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 4rem;
+    }
+}

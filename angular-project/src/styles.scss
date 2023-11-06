@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/css/custom-bootstrap.scss";
+@import "./assets/css/fonts.scss";
+@import "./assets/css/themes.scss";
+
+html,
+body {
+    background-image: url("./assets/img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.border-gradient {
+    border-image-slice: 1 !important;
+    border-image-source: linear-gradient(90deg, rgba(0, 254, 255, 1) 0%, rgba(106, 0, 255, 1) 38%, rgba(219, 0, 255, 1) 66%, rgba(255, 153, 0, 1) 100%) !important;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, rgba(0, 254, 255, 1) 0%, rgba(106, 0, 255, 1) 38%, rgba(219, 0, 255, 1) 66%, rgba(255, 153, 0, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
